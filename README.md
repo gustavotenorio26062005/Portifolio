@@ -22,6 +22,3 @@ Basta abrir o `index.html` no navegador, ou servir a pasta:
 ```bash
 python -m http.server 8000
 ```
-
-## Créditos
-Baseado no template [iPortfolio](https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/) da BootstrapMade.

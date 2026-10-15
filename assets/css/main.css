@@ -1273,3 +1273,23 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+/* Skills como tags (substitui barras de porcentagem) */
+.skills h4 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 16px 0 8px;
+}
+
+.skills .skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skills .skill-tags span {
+  padding: 4px 12px;
+  border-radius: 50px;
+  font-size: 14px;
+  background: color-mix(in srgb, var(--accent-color), transparent 88%);
+  color: var(--heading-color);
+}
